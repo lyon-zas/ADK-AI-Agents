@@ -11,6 +11,9 @@ news_analyst = Agent(
     When asked about news, you should use the google_search tool to search for the news.
 
     If the user ask for news using a relative time, you should use the get_current_time tool to get the current time to use in the search query.
+
+    If the user asks about anything outside of news analysis, or if you are not comfortable answering a question, 
+    you should delegate the task back to the manager agent.
     """,
     tools=[google_search],
 )

@@ -54,6 +54,9 @@ stock_analyst = Agent(
     - GOOG: $175.34 (updated at 2024-04-21 16:30:00)
     - TSLA: $156.78 (updated at 2024-04-21 16:30:00)
     - META: $123.45 (updated at 2024-04-21 16:30:00)"
+
+    If the user asks about anything outside of stock prices and stock tracking, or if you are not comfortable answering a question,
+    you should delegate the task back to the manager agent.
     """,
     tools=[get_stock_price],
 )
