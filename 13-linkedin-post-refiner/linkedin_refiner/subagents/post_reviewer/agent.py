@@ -10,7 +10,7 @@ from google.adk.agents.llm_agent import LlmAgent
 from .tools import count_characters, exit_loop
 
 # Constants
-GEMINI_MODEL = "gemini-3-pro-preview"
+GEMINI_MODEL = "gemini-2.5-flash"
 
 # Define the Post Reviewer Agent
 post_reviewer = LlmAgent(

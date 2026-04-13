@@ -8,7 +8,7 @@ source credibility and how often the criteria is mentioned across sources.
 from google.adk.agents.llm_agent import LlmAgent
 
 # Constants
-GEMINI_MODEL = "gemini-3-pro-preview"
+GEMINI_MODEL = "gemini-2.5-flash"
 
 # Define the Criteria Ranker Agent
 criteria_ranker = LlmAgent(

@@ -1,0 +1,126 @@
+{
+  "criteria": [
+    {
+      "id": "CRIT-001",
+      "name": "Strong Opening Hook",
+      "description": "The first 50-150 characters (or 1-2 lines) must grab attention, stopping the scroll within 2 seconds. Use specific numbers, surprising observations, thought-provoking questions, or a bold statement. For maximum impact, aim for under 8 words in the very first sentence.",
+      "source": "https://youscan.io/blog/how-to-post-on-linkedin-to-go-viral",
+      "source_name": "YouScan",
+      "confidence": "high"
+    },
+    {
+      "id": "CRIT-002",
+      "name": "Mobile-First Formatting",
+      "description": "Structure your content for easy readability on mobile devices. Use short paragraphs (1-3 sentences), strategic line breaks, and ample white space to avoid a dense 'wall of text'.",
+      "source": "https://www.valley.com/blog/linkedin-formatting-tips",
+      "source_name": "Valley",
+      "confidence": "high"
+    },
+    {
+      "id": "CRIT-003",
+      "name": "Strategic Use of Visuals",
+      "description": "Incorporate high-quality images, videos, infographics, or carousels (PDF documents) to increase engagement. Videos can get 5x more engagement, and carousels average high engagement rates. Upload natively to LinkedIn when possible.",
+      "source": "https://www.contentin.io/blog/how-to-write-linkedin-posts-that-drive-engagement",
+      "source_name": "ContentIn",
+      "confidence": "high"
+    },
+    {
+      "id": "CRIT-004",
+      "name": "Clear Call-to-Action (CTA)",
+      "description": "Include a clear, concise, and actionable call-to-action, typically at the end of the post. Use strong action verbs (e.g., 'Learn more', 'Comment below', 'Download now') and create a sense of urgency. Aim for 2-5 words for a button CTA.",
+      "source": "https://www.activeblogs.com/blog/tips-for-crafting-the-perfect-cta-in-your-linkedin-posts",
+      "source_name": "Active Blogs",
+      "confidence": "high"
+    },
+    {
+      "id": "CRIT-005",
+      "name": "External Links in First Comment",
+      "description": "Avoid placing external links directly in your main post body, as the LinkedIn algorithm often deprioritizes such content to keep users on the platform. Instead, share links in the first comment.",
+      "source": "https://youscan.io/blog/how-to-post-on-linkedin-to-go-viral",
+      "source_name": "YouScan",
+      "confidence": "high"
+    },
+    {
+      "id": "CRIT-006",
+      "name": "Value-Driven Content & Storytelling",
+      "description": "Share insightful, valuable content that offers advice, insights, frameworks, how-tos, or resources. Employ a storytelling approach, sharing personal anecdotes, transformation stories, or case studies that resonate with your audience and make them feel smart for finding it.",
+      "source": "https://www.thesalesexperts.com/blog/16-ways-to-make-your-linkedin-post-go-viral",
+      "source_name": "The Sales Experts",
+      "confidence": "high"
+    },
+    {
+      "id": "CRIT-007",
+      "name": "Encourage Engagement with Questions/Polls",
+      "description": "Actively invite participation by ending posts with genuine, open-ended questions or using LinkedIn polls to spark conversations. Respond to comments promptly to keep the discussion going, as early engagement signals value to the algorithm.",
+      "source": "https://youscan.io/blog/how-to-post-on-linkedin-to-go-viral",
+      "source_name": "YouScan",
+      "confidence": "high"
+    },
+    {
+      "id": "CRIT-008",
+      "name": "Authenticity & Human Touch",
+      "description": "Ensure your posts reflect authenticity and a human touch. Share personal opinions and feelings to spark deeper conversations. Avoid content that feels overly corporate, preachy, or excessively AI-generated, as authentic content receives higher engagement.",
+      "source": "https://youscan.io/blog/how-to-post-on-linkedin-to-go-viral",
+      "source_name": "YouScan",
+      "confidence": "high"
+    },
+    {
+      "id": "CRIT-009",
+      "name": "Optimal Post Length (Characters/Words)",
+      "description": "For general posts, aim for 150-300 characters for quick tips or around 900-1200 characters (200-400 words) for deeper dives. Longer, valuable content (1900-2000 words, often in articles) can also perform well for reach and authority building. Short, punchy posts of ~25 words or fewer are also effective.",
+      "source": "https://www.taplio.com/blog/linkedin-post-length/",
+      "source_name": "Taplio",
+      "confidence": "high"
+    },
+    {
+      "id": "CRIT-010",
+      "name": "Strategic Hashtag Use",
+      "description": "Use 2-3 (maximum 3-5) relevant, niche-specific hashtags at the end of your post to increase discoverability. Avoid overusing hashtags, as it can make your post appear spammy.",
+      "source": "https://youscan.io/blog/how-to-post-on-linkedin-to-go-viral",
+      "source_name": "YouScan",
+      "confidence": "high"
+    },
+    {
+      "id": "CRIT-011",
+      "name": "Tagging Relevant Connections",
+      "description": "When appropriate, tag relevant individuals, companies, or influencers using the '@' symbol to increase visibility among their networks and invite their contribution to the conversation.",
+      "source": "https://copilot.ai/blog/linkedin-algorithm",
+      "source_name": "CoPilot AI",
+      "confidence": "medium"
+    },
+    {
+      "id": "CRIT-012",
+      "name": "Professionalism & Relevance",
+      "description": "Keep content professional and relevant to business and industry. While a human touch is important, avoid sharing overly personal information or content that would be more suitable for platforms like Facebook. Maintain credibility and trust.",
+      "source": "https://www.topdogsocialmedia.com/linkedin-mistakes/",
+      "source_name": "Top Dog Social Media",
+      "confidence": "high"
+    },
+    {
+      "id": "CRIT-013",
+      "name": "Consistent Posting Schedule & Early Engagement",
+      "description": "Post consistently (e.g., 3-5 times a week) without overdoing it (maintain ~12 hours between posts). The first 30-60 minutes after posting are critical for engagement signals, so be ready to interact with early comments.",
+      "source": "https://www.contentin.io/blog/how-to-write-linkedin-posts-that-drive-engagement",
+      "source_name": "ContentIn",
+      "confidence": "high"
+    },
+    {
+      "id": "CRIT-014",
+      "name": "Avoid Jargon and Clich\u00e9s",
+      "description": "Write in clear, simple language, avoiding excessive business jargon or clich\u00e9s. This makes your content more accessible and relatable to a wider audience.",
+      "source": "https://www.linkedin.com/pulse/6-linkedin-errors-avoid-all-costs-linc-pr",
+      "source_name": "Emphasis - Writing Skills",
+      "confidence": "medium"
+    },
+    {
+      "id": "CRIT-015",
+      "name": "Use Bold/Italics Sparingly for Emphasis",
+      "description": "Utilize bold and italics to highlight key points, statistics, or calls-to-action, but do so sparingly to avoid cluttering the post and maintain a professional appearance.",
+      "source": "https://postnitro.ai/blog/linkedin-formatting-tips",
+      "source_name": "PostNitro",
+      "confidence": "high"
+    }
+  ],
+  "sources_searched": 5,
+  "timestamp": "2024-04-06T23:35:00Z"
+}

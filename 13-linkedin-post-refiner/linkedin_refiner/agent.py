@@ -16,12 +16,13 @@ from .subagents.criteria_ranker import criteria_ranker
 from .subagents.criteria_selector import criteria_selector
 from .subagents.post_reviewer import post_reviewer
 from .subagents.post_refiner import post_refiner
+from .subagents.whatsapp_publisher import whatsapp_publisher
 
 
 # Create the Refinement Loop Agent
 refinement_loop = LoopAgent(
     name="PostRefinementLoop",
-    max_iterations=10,
+    max_iterations=2,
     sub_agents=[
         post_reviewer,
         post_refiner,
@@ -38,6 +39,7 @@ root_agent = SequentialAgent(
         criteria_ranker,     # Step 3: Rank criteria by credibility and repetition
         criteria_selector,   # Step 4: Select most relevant criteria for the post
         refinement_loop,     # Step 5: Iteratively review and refine the post
+        whatsapp_publisher,  # Step 6: Publish post to WhatsApp via Composio
     ],
     description="""
     A comprehensive LinkedIn post refinement pipeline that:
